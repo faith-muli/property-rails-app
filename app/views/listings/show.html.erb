@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Listing type:</strong>
+  <%= @listing.listing_type %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @listing.location %>
+</p>
+
+<p>
+  <strong>Size:</strong>
+  <%= @listing.size %>
+</p>
+
+<p>
+  <strong>Asking price:</strong>
+  <%= @listing.asking_price %>
+</p>
+
+<%= link_to 'Edit', edit_listing_path(@listing) %> |
+<%= link_to 'Back', listings_path %>
